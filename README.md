@@ -1,3 +1,3 @@
 # Abra extension
 
-Provides syntax highlighting Abra programming language
+Provides VS Code syntax highlighting for Abra
