@@ -31,6 +31,26 @@
 		}
 	],
 	"repository": {
+		"block-comments": {
+			"patterns": [
+				{
+					"comment": "empty block comments",
+					"name": "comment.block.rust",
+					"match": "/\\*\\*/"
+				},
+				{
+					"comment": "block comments",
+					"name": "comment.block.rust",
+					"begin": "/\\*(?!\\*)",
+					"end": "\\*/",
+					"patterns": [
+						{
+							"include": "#block-comments"
+						}
+					]
+				}
+			]
+		},
 		"comments": {
 			"patterns": [
 				{
