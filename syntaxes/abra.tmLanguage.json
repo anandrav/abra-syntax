@@ -456,7 +456,7 @@
 				{
 					"comment": "primitive types",
 					"name": "entity.name.type.primitive.abra",
-					"match": "\\b(bool|char|str)\\b"
+					"match": "\\b(bool|string)\\b"
 				},
 				{
 					"comment": "trait declarations",
